@@ -31,5 +31,60 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	}
+
+.flexbox{
+	display: flex;
+}
+.hlavicka{
+	font-family: 'Playfair Display', serif;
+	color: #242424;
+	}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	border-radius: 5px;
+	}
+
+h1{
+	font-size: 52px;
+}
+h2{
+	font-size: 36px;
+}
+h3{
+	font-size: 18px;
 }
 
+h1,
+h2,
+h3 {font-family: 'Playfair Display', serif;}
+
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	display: inline-block;
+}
+
+.tlacitko{
+	background-color: #f195b2;
+	border-radius: 30px;
+	height: 15px;
+	width: 40px;
+	}
+
+.vyrobky{
+	color: aliceblue;
+}
+
+.footer{
+
+}
