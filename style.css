@@ -36,12 +36,11 @@ body {
 	line-height: 1.5;
 	}
 
-.flexbox{
-	display: flex;
-}
 .hlavicka{
 	font-family: 'Playfair Display', serif;
 	color: #242424;
+	display: flex;
+	justify-content: space-between;
 	}
 
 a{
@@ -77,14 +76,30 @@ li{
 .tlacitko{
 	background-color: #f195b2;
 	border-radius: 30px;
-	height: 15px;
-	width: 40px;
+	height: 40px;
+	width: 175px;
+	text-align: center;
 	}
 
 .vyrobky{
 	color: aliceblue;
 }
 
-.footer{
+.vitejte{
+	display: flex;
+}
 
+.nabidka{
+	display: flex;
+}
+
+.pristup{
+	display: flex;
+}
+.footer{
+	text-align: center;
+}
+.uvodnybanner{
+	background-image: url(images/cupcake.jpg);
+	color: aliceblue;
 }
