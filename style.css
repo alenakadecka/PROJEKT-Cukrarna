@@ -57,7 +57,10 @@ a:hover{
 .kolacik{
 	border-radius: 5px;
 	flex-direction: column;
+		}
 
+.columnkolacik{
+	
 
 	}
 .cukrarka{
@@ -119,25 +122,18 @@ li{
 
 .nabidka{
 	display: flex;
-	flex-shrink: 1;
 	flex-direction: row;
-	flex-wrap: wrap;
 	text-align: left;
-	justify-content: space-between;
+	background-color: #f0f0f0;
+	padding: 80px;
+	height: 700px;
 }
-
-.ponuka{
-	flex-basis: 1100px;
-	}
 
 .pristup{
 	display: flex;
+	padding: 80px;
 }
-.footer{
-	padding-top: 30px;
-	padding-bottom: 30px;
-	background-color: #2e3031;
-}
+
 .uvodnybanner{
 	background-image: url(images/cupcake.jpg);
 	color: aliceblue;
@@ -145,8 +141,18 @@ li{
 	width: auto;
 	background-repeat: no-repeat;
 	padding-right: 40%;
+	padding-top: 10px;
+	padding-left: 40px;
 }
 
 .peceni{
 	padding-right: 30px;
+}
+.footer{
+	background-color: #2e3031;
+	color:aliceblue;
+	text-align: center;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
