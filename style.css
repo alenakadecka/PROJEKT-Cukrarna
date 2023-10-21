@@ -140,6 +140,7 @@ li{
 	height: 450px;
 	width: auto;
 	background-repeat: no-repeat;
+	background-size: cover;
 	padding-right: 40%;
 	padding-top: 10px;
 	padding-left: 40px;
