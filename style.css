@@ -124,6 +124,7 @@ li{
 	padding: 80px;
 	height: 700px;
 	border-radius: 5px;
+	justify-content: space-between;
 }
 
 
@@ -161,7 +162,7 @@ li{
 	background-color: rgb(255, 255, 255);
 	border-radius: 5px;
 	padding: 20px;
-	box-shadow: 5px 5px 5px #727475;
+	
 }
 
 
