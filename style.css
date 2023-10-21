@@ -59,15 +59,11 @@ a:hover{
 	flex-direction: column;
 		}
 
-.columnkolacik{
-	
-
-	}
 .cukrarka{
 	border-radius: 5px;
 	float: left;
 	padding-left: 30px;
-	}
+		}
 
 
 h1{
@@ -127,6 +123,17 @@ li{
 	background-color: #f0f0f0;
 	padding: 80px;
 	height: 700px;
+	border-radius: 5px;
+}
+
+
+
+.ponuka{
+	flex-basis: 100%;
+	flex-shrink: 0;
+	background-color:#f0f0f0;
+	padding-left: 80px;
+	margin-bottom: 0;
 }
 
 .pristup{
@@ -145,6 +152,19 @@ li{
 	padding-top: 10px;
 	padding-left: 40px;
 }
+
+.kolacik{
+		border-radius: 5px;
+}
+
+.column{
+	background-color: rgb(255, 255, 255);
+	border-radius: 5px;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #727475;
+}
+
+
 
 .peceni{
 	padding-right: 30px;
