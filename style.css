@@ -51,7 +51,9 @@ a{
 a:hover{
 	color: aliceblue;
 	background-color: #f195b2;
-	border-radius: 20px;
+	border-radius: 10px;
+	width:80px ;
+	height:300px ;
 }
 
 .kolacik{
@@ -62,9 +64,8 @@ a:hover{
 .cukrarka{
 	border-radius: 5px;
 	float: left;
-	padding-left: 30px;
+	margin-left: 30px;
 		}
-
 
 h1{
 	font-size: 52px;
@@ -102,6 +103,7 @@ li{
 	height: 40px;
 	width: 175px;
 	text-align: center;
+	padding-top: 5px;
 	}
 
 .vyrobky{
@@ -126,9 +128,8 @@ li{
 	border-radius: 5px;
 	justify-content: space-between;
 	align-items: stretch;
+	row-gap: 10px;
 }
-
-
 
 .ponuka{
 	flex-basis: 100%;
@@ -157,15 +158,20 @@ li{
 
 .kolacik{
 		border-radius: 5px;
+		display: flex;
+		background-color: rgb(255, 255, 255);
+		flex-direction: column;
+		flex-basis: 25%;
+
 }
 
-.column{
-	background-color: rgb(255, 255, 255);
+.peceniobr{
+	margin-right: 30px;
 	border-radius: 5px;
-	}
+}
 
-.peceni{
-	padding-right: 30px;
+.obrazok{
+		border-radius: 5px;
 }
 .footer{
 	background-color: #2e3031;
