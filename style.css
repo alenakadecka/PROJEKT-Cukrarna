@@ -43,24 +43,24 @@ body {
 	justify-content: space-between;
 		}
 
-a{
-	
-	text-decoration: none;
+a{	text-decoration: none;
 	color: black;
 		}
-.policko{
-	width: auto;
-	height: 30px;
-	border-radius: 20px;
-	background-color: #3e606b;
-	
-		}
+
 	a:hover{
 		color: aliceblue;
+		}
+
+.policko{
+	width: auto;
+	height: 45px;
+	border-radius: 20px;
+	padding: 10px 15px 10px 15px;
 			}
+
 	.policko:hover{
 	background-color: #f195b2;
-			}
+				}
 
 .cukrarka{
 	border-radius: 5px;
@@ -128,10 +128,9 @@ li{
 	display: flex;
 	flex-direction: row;
 	background-color: #f0f0f0;
-	padding: 20px 80px 40px 80px;
-	height: 800px; 
-	justify-content: space-between;
-	row-gap: 10px;
+	height: auto; 
+	justify-content: space-evenly;
+	gap: 10px;
 	}
 
 .kolacik{
@@ -139,11 +138,12 @@ li{
 	display: flex;
 	flex-direction: column;
 	background-color: rgb(255, 255, 255);
-	margin: 30px;
 	box-shadow: 3px 3px 3px rgb(193, 195, 197);
-	height: 600px;
-		
-}
+	height: 485px;
+	width: 290px;
+	margin-bottom: 50px;
+
+	}
 
 .odstavcek{
 	text-align: left;
@@ -179,6 +179,8 @@ li{
 
 .obrazok{
 	border-radius: 5px;
+	height: auto;
+	width: auto;
 }
 .footer{
 	background-color: #2e3031;
